@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 
-parser = ArgumentParser(description="Encrypts/Decrypts a Caesar cypher")
+parser = ArgumentParser(description="Encrypts/Decrypts a Caesar cipher")
 group = parser.add_mutually_exclusive_group()
 
 group.add_argument("-e","--encrypt", help="Encrypts the entered message", action="store_true")
